@@ -22,7 +22,7 @@ function show_item()
     htmldata="<section class='cards'>"
     for(var j=0;j<menu_list_array.length;j++)
     {
-        htmldata='<div class="card">'+'<img src="images/pizzaImg.png"/>'+menu_list_array[j]+'</div>'
+        htmldata='<div class="card">'+'<img src="pizzaImg.png">'+menu_list_array[j]+'</div>'
     }
     htmldata=htmldata+"</section>"
     document.getElementById("display_addedmenu").innerHTML=htmldata;
